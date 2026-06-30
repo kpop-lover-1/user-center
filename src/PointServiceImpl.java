@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.Map;
 public class PointServiceImpl implements PointService {
     private Map<Long, Integer> pointsDB = new HashMap<>();
 
